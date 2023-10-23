@@ -1,0 +1,30 @@
+.seat-map{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    padding-left : 220px;
+    padding-top : 120px;
+}
+.booking-container{
+    display: flex;
+}
+
+.referance-container{
+ padding-top : 120px;
+ padding-left : 130px;
+ align-items: center;
+}
+
+.span{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+.icons-container{
+    display: flex;
+    margin: 25px;
+}
+.grey-icon{
+    fill : green;
+}

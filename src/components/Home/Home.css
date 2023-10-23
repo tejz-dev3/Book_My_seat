@@ -1,0 +1,21 @@
+
+.home-bg{
+    background-image: url('https://snipboard.io/R6FbZE.jpg');
+    background-size: cover;
+    color: white;
+    height : 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin : 0px;
+      
+      
+}
+
+.logo-head{
+    font-family: 'Permanent Marker', cursive;
+    /* margin-top: 20px;
+    margin-bottom: 8dvi; */
+    font-size: 50px;
+}
