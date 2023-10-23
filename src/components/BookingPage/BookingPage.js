@@ -3,17 +3,18 @@ import './BookingPage.css'
 import Selection from '../Selection/Selection'
 import './BookingPage.css'
 import Seat from '../Seat/Seat'
-// import WeekendOutlinedIcon from '@mui/icons-material/WeekendOutlined';
 import WeekendSharpIcon from '@mui/icons-material/WeekendSharp';
+import { premiumData, standardData } from '../Utils/Utils'
+
 
 function BookingPage() {
   return (
     <div className='booking-container'>
-        {/* Ticket type, Qty */}
+        {/* Ticket type, Qty Component*/}
         <Selection />
         {/* all seats display*/}
         <div className='seat-map'>
-           <Seat />
+           <Seat premiumData={premiumData} standardData={standardData}/>
         </div>
         {/* available, unavailable, your selected seats  */}
         <div>
@@ -35,7 +36,7 @@ function BookingPage() {
             <button className='proceed-btn'>Proceed</button>
           </div>
        </div>
-        
+       
     </div>
   )
 }
