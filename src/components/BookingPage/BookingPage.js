@@ -16,22 +16,24 @@ function BookingPage() {
            <Seat />
         </div>
         {/* available, unavailable, your selected seats  */}
-        <div className='referance-container'>
-           <h3>Key to Seat</h3>
-          <div className='icons-container'>
-            <WeekendSharpIcon style={{ height: '40px', width: '40px',color:'white',  stroke: 'black' }} />
-            <span className='span'>Available</span>
+        <div>
+          <div className='referance-container'>
+            <h3>Key to Seat</h3>
+            <div className='icons-container'>
+              <WeekendSharpIcon style={{ height: '40px', width: '40px',color:'white',  stroke: 'black' }} />
+              <span className='span'>Available</span>
+            </div>
+            <div className='icons-container'>
+              <WeekendSharpIcon style={{ height: '40px', width: '40px', fill:'gray'}}  />
+              <span className='span'>Unavailable</span>
+            </div>
+            <div className='icons-container'>
+              <WeekendSharpIcon style={{ height: '40px', width: '40px', fill:'#50C878' }}  />
+              <span className='span'>Your Selection</span>
+            </div>
+            {/* proceed button */}
+            <button className='proceed-btn'>Proceed</button>
           </div>
-          <div className='icons-container'>
-            <WeekendSharpIcon style={{ height: '40px', width: '40px', fill:'gray'}}  />
-            <span className='span'>Unavailable</span>
-          </div>
-          <div className='icons-container'>
-            <WeekendSharpIcon style={{ height: '40px', width: '40px', fill:'#50C878' }}  />
-            <span className='span'>Your Selection</span>
-          </div>
-          {/* proceed button */}
-          <button className='proceed-btn'>Proceed</button>
        </div>
         
     </div>
